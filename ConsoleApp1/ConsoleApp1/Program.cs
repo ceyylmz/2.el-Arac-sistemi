@@ -12,13 +12,15 @@ class Program
 
     }
 
-    static void ortalama()
+    static double ortalama(int vize , int final)
     {
-        //todo:
+        double ortalama = (vize * 0.4) + (final * 0.6);
+
+        return ortalama;
     }
 
     static void harfnotu()
     {
-        //todo:
+        
     }
 }
